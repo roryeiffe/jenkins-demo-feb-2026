@@ -10,13 +10,13 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'mvn -B -ntp test'
+        bat 'mvn -B -ntp test'
       }
     }
 
     stage('Package') {
       steps {
-        sh 'mvn -B -ntp package'
+        bat 'mvn -B -ntp package'
       }
     }
   }
