@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jenkins-demo-feb-2026" />
         <module name="jenkins-demo" />
       </profile>
     </annotationProcessing>
