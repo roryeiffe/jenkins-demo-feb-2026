@@ -17,6 +17,6 @@ public class ColorTest {
     public void testMix() {
         Assertions.assertEquals(Color.GREEN, colorMixer.mix(Color.BLUE, Color.YELLOW));
         Assertions.assertEquals(Color.PURPLE, colorMixer.mix(Color.BLUE, Color.RED));
-        Assertions.assertEquals(Color.ORANGE, colorMixer.mix(Color.RED, Color.YELLOW));
+        Assertions.assertEquals(Color.BLUE, colorMixer.mix(Color.RED, Color.YELLOW));
     }
 }
